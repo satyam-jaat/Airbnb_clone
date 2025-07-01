@@ -72,7 +72,7 @@ body{
     border-radius: 1.6rem !important;
     width: 100% !important;
     object-fit: cover !important;
-    height: 20rem;
+    height: 18rem !important;
 }
 
 .card-body{
@@ -80,7 +80,7 @@ body{
 }
 
 .card-text {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .listing-link {
@@ -97,10 +97,25 @@ body{
     background-color: white;
 }
 
-.add-btn{
+.add-btn, .edit-btn{
     background-color: #fe424d !important;
     border: none !important;
     padding: 0.5rem 0.9rem !important;
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 30px;
+}
 
+.show-img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.btns {
+    display: flex;
+
+}
+
+.show-card {
+    padding-left: 0px;
+    padding-right: 0px;
 }
